@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_GET["code"]) && !empty($_GET["code"]))
 {
 $connect = new PDO("mysql:host=localhost;dbname=email_track_database", "root","");	
@@ -9,5 +8,4 @@ $connect = new PDO("mysql:host=localhost;dbname=email_track_database", "root",""
 	$statement->execute([''.$_GET["code"].'','yes',''.date("Y-m-d H:i:s", STRTOTIME(date('h:i:sa'))).'']);
 	
 }
-	
 ?>
