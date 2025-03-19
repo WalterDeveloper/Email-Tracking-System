@@ -1,5 +1,4 @@
 <?php
-
 //index.php
 
 $connect = new PDO("mysql:host=localhost;dbname=email_track_database", "root", "");
