@@ -1,6 +1,5 @@
 <?php
 //index.php
-
 $connect = new PDO("mysql:host=localhost;dbname=email_track_database", "root", "");
 /*Note: Give your website address instead of localhost in $base_url  .Upload your all files of this project in your web folder and import the databse file.  for localhost it will not work in realtime its because of url. 
   */
