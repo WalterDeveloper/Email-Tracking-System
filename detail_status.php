@@ -19,7 +19,6 @@
 				
 			</tr>
 
-
 			<tr>
 				<td class="text-center">
 					<span><?php if (isset($_POST["details"]) && !empty($_POST["details"])) {
